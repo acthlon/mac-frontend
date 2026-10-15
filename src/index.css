@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #FFB400;
+  --color-offwhite: #F9FAFB;
+  --color-dark: #0F0F0F;
+
+  --font-display: "Cormorant Garamond", serif;
+  --font-cormorant: "Cormorant Garamond", serif;
+  --font-sans: "Montserrat", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+
+
+/* 💡 Hide global browser scrollbar */
+html,
+body {
+  -ms-overflow-style: none;
+  /* For Internet Explorer & Edge */
+  scrollbar-width: none;
+  /* For Firefox */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+  /* For Chrome, Safari, and Opera */
+}
